@@ -1,8 +1,25 @@
-
-.section{
-  background-color: gray;
+*{
+  box-sizing: border-box;
 }
 
+body{
+  margin: 0;
+  padding: 0;
+  
+}
+
+.container{
+  padding: 10px;
+  margin: 20px;
+}
+.section{
+  background-color: gray;
+  border: 2px solid black;
+  width: 300px;
+}
+h1{
+  text-align: center;
+}
 
 @media (max-width= 992px){
   * {
