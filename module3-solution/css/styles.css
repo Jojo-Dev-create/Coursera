@@ -1,1 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 2px solid #ccc;
+}
+
+.content {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.menu-section {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.menu-section h2 {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu-section p {
+    text-align: justify;
+    line-height: 1.6;
+}
 
