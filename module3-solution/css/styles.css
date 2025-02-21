@@ -2,15 +2,16 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 header {
-    background-color: #f2f2f26c;
+    background-color: #808080;
     padding: 20px;
     text-align: left;
     font-size: 24px;
     font-weight: bold;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 2px solid #4d4d4d;
 }
 
 .content {
@@ -19,21 +20,32 @@ header {
 }
 
 .chicken, .beef, .sushi {
-    width: 80%;
-    margin: 0 auto;
-    background-color: #e0e0e0;
+    width: 25%;
+    margin: 10px 1%;
+    background-color: #666666;
     padding: 20px;
     border-radius: 8px;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    white-space: normal;
 }
 
 .menu-section h2 {
+    text-align: center;
     margin-top: 0;
     font-size: 20px;
     font-weight: bold;
 }
 
 .menu-section p {
-    text-align: justify;
+    text-align: left;
     line-height: 1.6;
+}
+.menu-section{
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    margin: 0 auto;
 }
 
